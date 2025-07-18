@@ -1,0 +1,29 @@
+{
+    "createPostValid": {
+      "title": "This is to create valid post title",
+      "body": "This is to create valid title ",
+      "userId": 1
+    },
+    "createPostWithEmptyBody":{
+
+    },
+    "createPostMissingUserId": {
+      "title": "foo",
+      "body": "bar"
+    },
+    "createPostEmptyTitle": {
+      "title": "",
+      "body": "bar",
+      "userId": 1
+    },
+    "createPostEmptyBody": {
+      "title": "Valid title",
+      "body": "",
+      "userId": 1
+    },
+    "createPostMissingInvalidUserId":{
+        "title": "Valid title",
+        "body": "",
+        "userId": "abc"
+    }
+  }

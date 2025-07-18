@@ -1,0 +1,21 @@
+{
+  "name": "bdd-playwright-ui-api-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags=@regression",
+    "report": "node generate-html-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.0.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "cucumber-html-reporter": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

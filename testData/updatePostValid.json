@@ -1,0 +1,8 @@
+{
+    "UpdatePostValid": {
+      "id":1,
+      "title": "This is to create valid post title",
+      "body": "This is to create valid title ",
+      "userId": 1
+    }
+  }
